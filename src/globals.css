@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .btn-primary {
+        @apply bg-green text-white rounded-xl p-3 border border-green hover:bg-white hover:border-black hover:text-black transition-all;
+    }
+    .btn-secondary {
+        @apply bg-black text-white rounded-xl p-3 border border-black hover:bg-white hover:text-black hover:border-black transition-all;
+    }
+    .btn-tertiary {
+        @apply bg-lightRed text-white rounded-xl p-2 border border-lightRed hover:bg-white hover:border-black hover:text-black transition-all;
+    }
+    .text-14-400 {
+        @apply text-sm text-black;
+        line-height: 22px;
+    }
+    .text-14-500 {
+        @apply text-sm font-medium text-black;
+        line-height: 22px;
+    }
+    .text-14-600 {
+        @apply text-sm font-semibold text-black;
+        line-height: 22px;
+    }
+    .text-14-700 {
+        @apply text-sm font-bold text-black;
+        line-height: 22px;
+    }
+    .text-16-400 {
+        @apply text-base text-black;
+        line-height: 24px;
+    }
+    .text-16-500 {
+        @apply text-base font-medium text-black;
+        line-height: 24px;
+    }
+    .text-16-600 {
+        @apply text-base font-semibold text-black;
+        line-height: 24px;
+    }
+    .text-16-700 {
+        @apply text-base font-bold text-black;
+        line-height: 24px;
+    }
+    .text-18-400 {
+        @apply text-lg text-black;
+        line-height: 24px;
+    }
+    .text-18-500 {
+        @apply text-lg font-medium text-black;
+        line-height: 24px;
+    }
+    .text-18-600 {
+        @apply text-lg font-semibold text-black;
+        line-height: 24px;
+    }
+    .text-18-700 {
+        @apply text-lg font-bold text-black;
+        line-height: 24px;
+    }
+    .text-20-400 {
+        @apply text-xl text-black;
+        line-height: 24px;
+    }
+    .text-20-500 {
+        @apply text-xl font-medium text-black;
+        line-height: 24px;
+    }
+    .text-20-600 {
+        @apply text-xl font-semibold text-black;
+        line-height: 24px;
+    }
+    .text-20-700 {
+        @apply text-xl font-bold text-black;
+        line-height: 24px;
+    }
+    .text-25-600 {
+        @apply text-[25px] font-semibold text-black;
+        line-height: 25px;
+    }
+    .text-25-700 {
+        @apply text-[25px] font-bold text-black;
+        line-height: 25px;
+    }
+    .title-35-600 {
+        @apply text-[35px] text-green font-semibold;
+        line-height: 42px;
+    }
+    .title-35-700 {
+        @apply text-[35px] text-green font-bold;
+        line-height: 42px;
+    }
+}
+
+@layer components {
+    .input {
+        @apply rounded-xl bg-white text-14-500 border border-gray p-3 focus:border-black transition-all;
+    }
+    .checkbox {
+        @apply rounded-xl bg-white text-14-500 border border-gray p-5 transition-all;
+    }
+    .card {
+        @apply rounded-xl bg-white border-t-4 border-green p-4 shadow-2xl transition-all;
+    }
+}
