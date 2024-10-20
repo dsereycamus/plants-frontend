@@ -1,0 +1,241 @@
+[
+    {
+        "_id": "1",
+        "name": "Seaside Disc Lichen",
+        "price": 10460,
+        "image": "http://dummyimage.com/205x205.png/cc0000/ffffff",
+        "owner": "1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "stock": 61
+    },
+    {
+        "_id": "2",
+        "name": "Lemonade Sumac",
+        "price": 45509,
+        "image": "http://dummyimage.com/205x205.png/ff4444/ffffff",
+        "owner": "2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+        "stock": 52
+    },
+    {
+        "_id": "3",
+        "name": "Gulf Coast Spikerush",
+        "price": 1305,
+        "image": "http://dummyimage.com/205x205.png/ff4444/ffffff",
+        "owner": "3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+        "stock": 66
+    },
+    {
+        "_id": "4",
+        "name": "Downy Yellow Violet",
+        "price": 20737,
+        "image": "http://dummyimage.com/205x205.png/cc0000/ffffff",
+        "owner": "4",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+        "stock": 5
+    },
+    {
+        "_id": "5",
+        "name": "Leatherstem",
+        "price": 32794,
+        "image": "http://dummyimage.com/205x205.png/cc0000/ffffff",
+        "owner": "5",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+        "stock": 75
+    },
+    {
+        "_id": "6",
+        "name": "Ponce Beadfern",
+        "price": 11429,
+        "image": "http://dummyimage.com/205x205.png/5fa2dd/ffffff",
+        "owner": "6",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+        "stock": 3
+    },
+    {
+        "_id": "7",
+        "name": "Eastern Annual Saltmarsh Aster",
+        "price": 42060,
+        "image": "http://dummyimage.com/205x205.png/5fa2dd/ffffff",
+        "owner": "7",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+        "stock": 50
+    },
+    {
+        "_id": "8",
+        "name": "Silvery Sedge",
+        "price": 40173,
+        "image": "http://dummyimage.com/205x205.png/cc0000/ffffff",
+        "owner": "8",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+        "stock": 58
+    },
+    {
+        "_id": "9",
+        "name": "Strawberry Raspberry",
+        "price": 31829,
+        "image": "http://dummyimage.com/205x205.png/ff4444/ffffff",
+        "owner": "9",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+        "stock": 28
+    },
+    {
+        "_id": "10",
+        "name": "Santa Barbara Bedstraw",
+        "price": 23071,
+        "image": "http://dummyimage.com/205x205.png/ff4444/ffffff",
+        "owner": "10",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+        "stock": 75
+    },
+    {
+        "_id": "11",
+        "name": "Bog Lobelia",
+        "price": 12598,
+        "image": "http://dummyimage.com/205x205.png/ff4444/ffffff",
+        "owner": "11",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+        "stock": 99
+    },
+    {
+        "_id": "12",
+        "name": "Sierra Valley Mousetail",
+        "price": 35536,
+        "image": "http://dummyimage.com/205x205.png/dddddd/000000",
+        "owner": "12",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+        "stock": 92
+    },
+    {
+        "_id": "13",
+        "name": "Scouler's St. Johnswort",
+        "price": 2549,
+        "image": "http://dummyimage.com/205x205.png/dddddd/000000",
+        "owner": "13",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+        "stock": 85
+    },
+    {
+        "_id": "14",
+        "name": "Smallflower Threadplant",
+        "price": 48084,
+        "image": "http://dummyimage.com/205x205.png/5fa2dd/ffffff",
+        "owner": "14",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+        "stock": 83
+    },
+    {
+        "_id": "15",
+        "name": "Parish's Yampah",
+        "price": 8501,
+        "image": "http://dummyimage.com/205x205.png/5fa2dd/ffffff",
+        "owner": "15",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+
+        "stock": 32
+    },
+    {
+        "_id": "16",
+        "name": "Engelmann's Hedgehog Cactus",
+        "price": 4442,
+        "image": "http://dummyimage.com/205x205.png/ff4444/ffffff",
+        "owner": "16",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "stock": 68
+    },
+    {
+        "_id": "17",
+        "name": "Cedrela",
+        "price": 6242,
+        "image": "http://dummyimage.com/205x205.png/dddddd/000000",
+        "owner": "17",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "stock": 87
+    },
+    {
+        "_id": "18",
+        "name": "Digitgrass",
+        "price": 15058,
+        "image": "http://dummyimage.com/205x205.png/dddddd/000000",
+        "owner": "18",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "stock": 16
+    },
+    {
+        "_id": "19",
+        "name": "Thistle Cholla",
+        "price": 13940,
+        "image": "http://dummyimage.com/205x205.png/5fa2dd/ffffff",
+        "owner": "19",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "stock": 61
+    },
+    {
+        "_id": "20",
+        "name": "Chocolate Chip Lichen",
+        "price": 2514,
+        "image": "http://dummyimage.com/205x205.png/5fa2dd/ffffff",
+        "owner": "20",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "stock": 17
+    },
+    {
+        "_id": "21",
+        "name": "Softhair Marbleseed",
+        "price": 9547,
+        "image": "http://dummyimage.com/205x205.png/cc0000/ffffff",
+        "owner": "21",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "stock": 7
+    },
+    {
+        "_id": "22",
+        "name": "James' Holdback",
+        "price": 9220,
+        "image": "http://dummyimage.com/205x205.png/ff4444/ffffff",
+        "owner": "22",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "stock": 75
+    },
+    {
+        "_id": "23",
+        "name": "Jamaican Nettletree",
+        "price": 41517,
+        "image": "http://dummyimage.com/205x205.png/cc0000/ffffff",
+        "owner": "23",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "stock": 35
+    },
+    {
+        "_id": "24",
+        "name": "Hairy Lespedeza",
+        "price": 3103,
+        "image": "http://dummyimage.com/205x205.png/5fa2dd/ffffff",
+        "owner": "24",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "stock": 13
+    },
+    {
+        "_id": "25",
+        "name": "Paskenta Grade Dwarf-flax",
+        "price": 5140,
+        "image": "http://dummyimage.com/205x205.png/5fa2dd/ffffff",
+        "owner": "25",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "stock": 52
+    }
+]
