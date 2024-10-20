@@ -20,11 +20,11 @@ module.exports = {
         },
         extend: {
             backgroundImage: {
-                'home-image-1': "url('./src/Assets/Home-1.jpeg')",
-                'home-image-2': "url('./src/Assets/Home-2.png')",
-                'home-car': "url('./src/Assets/Home-Car.png')",
-                'home-tree': "url('./src/Assets/Home-Tree.png')",
-                'home-earth': "url('./src/Assets/Home-Earth.png')",
+                'home-image-1': "url('/Home-1.jpeg')",
+                'home-image-2': "url('/Home-2.png')",
+                'home-car': "url('/Home-Car.png')",
+                'home-tree': "url('/Home-Tree.png')",
+                'home-earth': "url('/Home-Earth.png')",
             },
             spacing: {
                 '8xl': '96rem',

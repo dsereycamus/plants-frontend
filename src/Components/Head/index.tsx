@@ -1,4 +1,3 @@
-import PlantsLogo from '@assets/PlantsIcon.png'
 import { Button, Input } from '@components/index'
 import { useForm } from 'react-hook-form'
 import { FaCartShopping } from 'react-icons/fa6'
@@ -20,7 +19,7 @@ export const Head = () => {
 
     return (
         <div className="bg-green w-full py-7 px-[20%] flex justify-between items-center">
-            <img src={PlantsLogo} />
+            <img src={'/PlantsIcon.png'} />
             <div className="flex gap-4 w-full px-10">
                 <Input
                     control={control}
