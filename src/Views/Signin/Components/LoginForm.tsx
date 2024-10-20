@@ -28,8 +28,8 @@ export const LoginForm = () => {
         await mutateAsync(values, {
             onSuccess: async (data) => {
                 const userData = await refetch()
-                toast('Inicio de sesión exitoso', { type: 'success' })
                 signin(userData.data!, data.token)
+                toast('Inicio de sesión exitoso', { type: 'success' })
                 navigate('/')
             },
             onError: () => {

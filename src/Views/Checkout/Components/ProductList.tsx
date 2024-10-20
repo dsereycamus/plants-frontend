@@ -152,6 +152,7 @@ export const ProductList: FC<TProductListProps> = ({ form }) => {
                 <h1 className="text-20-600">Selecciona tu método de pago</h1>
                 {Object.values(EPaymentMethods).map((val) => (
                     <PaymentMethod
+                        key={val}
                         paymentMethod={val as EPaymentMethods}
                         isSelected={paymentMethod === val}
                         select={() => setPaymentMethod(val as EPaymentMethods)}

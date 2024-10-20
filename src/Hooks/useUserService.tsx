@@ -36,7 +36,7 @@ export const useGetUserData = (): UseQueryResult<TUser, Error> =>
         queryKey: ['get-user-data'],
         queryFn: async () => {
             const request = await userService.getUserData()
-            return request
+            return request.data
         },
         enabled: false,
     })
