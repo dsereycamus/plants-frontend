@@ -34,13 +34,15 @@ export const SessionProvider: FC<PropsWithChildren> = ({ children }) => {
     const [token, setToken] = useState<string>('')
 
     const signin = (usr: TUser, tokn: string) => {
-        console.log('User: ', usr)
         setUser(usr)
         setToken(tokn)
     }
 
     const signout = () => {
         setUser(undefined)
+        setToken('')
+        window.localStorage.removeItem('token')
+        window.localStorage.removeItem('user')
     }
 
     const values = useMemo(

@@ -1,5 +1,10 @@
+import { FC } from 'react'
 import { AiOutlineLoading3Quarters } from 'react-icons/ai'
 
-export const Spinner = () => {
-    return <AiOutlineLoading3Quarters className="animate-spin h-5 w-5" />
+type TSpinnerProps = {
+    size?: number
+}
+
+export const Spinner: FC<TSpinnerProps> = ({ size = 20 }) => {
+    return <AiOutlineLoading3Quarters className="animate-spin" size={size} />
 }

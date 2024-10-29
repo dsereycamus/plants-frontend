@@ -3,8 +3,6 @@ export type TProduct = {
     description: string
     id: number
     image: string
-    imageName: string
-    imageType: string
     name: string
     ownerId: number
     price: number

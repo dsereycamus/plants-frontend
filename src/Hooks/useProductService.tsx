@@ -7,10 +7,7 @@ export const useGetProducts = (): UseQueryResult<TProduct[], Error> =>
         queryKey: ['get-product-list'],
         queryFn: async () => {
             const request = await productService.getProducts()
-            const products = (request.data as TProduct[]).map((prod) => ({
-                ...prod,
-                image: `data:image/png;base64,${prod.image}`,
-            }))
-            return products
+
+            return request.data as TProduct[]
         },
     })

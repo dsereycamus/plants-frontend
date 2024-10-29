@@ -11,7 +11,7 @@ export const SignupForm = () => {
     const {
         control,
         handleSubmit,
-        formState: { isLoading, isSubmitting, isValid },
+        formState: { errors, isLoading, isSubmitting, isValid },
     } = useForm<TSignupRequest>({
         defaultValues: undefined,
         resolver: zodResolver(SignupSchema),
@@ -29,6 +29,8 @@ export const SignupForm = () => {
             },
         })
     }
+
+    console.log(errors)
 
     return (
         <div className="flex px-[8vw] py-12 bg-background justify-between gap-[5vw]">

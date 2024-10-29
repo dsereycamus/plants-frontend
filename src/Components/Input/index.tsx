@@ -28,36 +28,41 @@ export const Input: FC<TInputProps> = ({
             <Controller
                 control={control}
                 name={name}
-                render={({ field: { onChange, onBlur, value } }) => (
-                    <div
-                        className={`input flex w-full items-center ${label ? 'mt-5' : ''} ${className} focus-within:border-black`}
-                    >
-                        {leftElement && (
-                            <div className="flex items-center justify-center pr-4">
-                                {leftElement}
-                            </div>
+                render={({
+                    field: { onChange, onBlur, value },
+                    fieldState,
+                }) => (
+                    <>
+                        <div
+                            className={`input flex w-full items-center ${label ? 'mt-5' : ''} ${className} focus-within:border-black`}
+                        >
+                            {leftElement && (
+                                <div className="flex items-center justify-center pr-4">
+                                    {leftElement}
+                                </div>
+                            )}
+                            <input
+                                name={name}
+                                className="w-full p-1 rounded-md focus:outline-none"
+                                value={value}
+                                onChange={onChange}
+                                onBlur={onBlur}
+                                {...rest}
+                            />
+                            {rightElement && (
+                                <div className="flex items-center justify-center pl-4">
+                                    {rightElement}
+                                </div>
+                            )}
+                        </div>
+                        {(error || fieldState.error) && (
+                            <p className="text-14-400 !text-red py-2">
+                                {error ?? fieldState.error?.message}
+                            </p>
                         )}
-                        <input
-                            name={name}
-                            className="w-full p-1 rounded-md focus:outline-none"
-                            value={value}
-                            onChange={onChange}
-                            onBlur={onBlur}
-                            {...rest}
-                        />
-                        {rightElement && (
-                            <div className="flex items-center justify-center pl-4">
-                                {rightElement}
-                            </div>
-                        )}
-                    </div>
+                    </>
                 )}
             />
-            {(error || control?.getFieldState(name)?.error?.message) && (
-                <p className="text-14-400 !text-red py-2">
-                    {error || control.getFieldState(name)?.error?.message}
-                </p>
-            )}
         </div>
     )
 }
